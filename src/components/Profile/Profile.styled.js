@@ -6,11 +6,12 @@ max-width: 512px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px 5px 15px 5px #b5b4b4;
+    background-color: ivory;
 
     & .userAvatar{
         border-radius: 50%;
-    background-color: grey;
-    box-shadow: 5px 5px 15px 5px grey;
+        ${'' /* margin: 10px */}
+    background-color: lightgrey;
     }
 
     & .mainInfo{
@@ -23,7 +24,7 @@ max-width: 512px;
         list-style: none;
         gap: 10px;
         padding: 10px;
-        background-color: grey;
+        background-color: lightgrey;
 
     }
     .statisticInfo{
